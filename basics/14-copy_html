@@ -1,2 +1,2 @@
-#!/bin/sh
-[ "$(echo *.html)" != '*.html' ] && for f in *.html; do [ ! -e ../"$f" ] || [ "$f" -nt ../"$f" ] && cp -p "$f" ../"$f"; done
+#!/bin/bash
+for f in *.html do if [[ -e "$f" ]] then cp -p "$f" ../"$f" fi done
