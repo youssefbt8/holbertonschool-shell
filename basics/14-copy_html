@@ -1,2 +1,5 @@
 #!/bin/bash
-for f in *.html do if [[ -e "$f" ]] then cp -p "$f" ../"$f" fi done
+for f in *.html
+do
+  cp -p "$f" ../"$f"
+done
