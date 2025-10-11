@@ -1,5 +1,2 @@
 #!/bin/bash
-for f in *.html
-do
-  cp -p "$f" ../"$f"
-done
+cp -u ./*.html ../
