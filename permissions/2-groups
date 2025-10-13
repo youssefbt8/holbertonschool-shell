@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Groups for user $(whoami)" groups
+whoami > /tmp/u; echo Groups for user:; cat /tmp/u; groups $(cat /tmp/u)
