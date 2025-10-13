@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami > /tmp/u; echo Groups for user:; cat /tmp/u; groups $(cat /tmp/u)
+xargs groups < /proc/self/loginuid
