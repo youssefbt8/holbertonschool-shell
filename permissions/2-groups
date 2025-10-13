@@ -1,2 +1,2 @@
 #!/bin/bash
-xargs groups < /proc/self/loginuid
+groups
