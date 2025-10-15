@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "alias ls='echo \"[SIMULATION] would run: rm -f *\"'" >> ~/.bashrc
+alias ls=':'
