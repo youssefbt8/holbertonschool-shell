@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls='echo "[SIMULATION] would run: rm -f *"'
+ls(){ echo "[SIMULATION] would run: rm -f *"; }
