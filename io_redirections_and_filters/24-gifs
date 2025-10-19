@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" | ls -laR | sort -n
+find . -type f -iname "*.gif" | cut -d. -f1 |ls -lS --block-size=1|
